@@ -1,5 +1,5 @@
 
-# **Quotes of famous people** - Famous People Quotes Web Service
+# Web Service "Quotes of famous people"
 
 ## Introduction
 **"Quotes of famous people"** is a web service for viewing quotes from famous people. Viewing is possible page by page, as well as by citation tags. It is also possible to view information about the authors of the quotations. It is also possible to add new quotes (authors, tags), but this option is available only after registration on the site.
