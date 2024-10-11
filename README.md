@@ -44,10 +44,13 @@ EMAIL_PORT=
 EMAIL_HOST_USER=
 EMAIL_HOST_PASSWORD=
 ```
+
    The web service requires access to the Postgresql database, and also to the mail server. The Postgresql database can be made by registering on [https://www.koyeb.com/](https://www.koyeb.com/)(DATABASE_PORT is then unnecessary) or created in Docker(```docker-compose build```, ```docker-compose up```). The mail server can be made by registering on meta.ua or on another similar web service.
 
 4. **Creating a virtual environment:**
+
    To isolate project dependencies, it is recommended to use a virtual environment.
+
    Create it:
    ```
    python -m venv venv
@@ -58,6 +61,7 @@ EMAIL_HOST_PASSWORD=
    ```
 
 5. **Installing dependencies**
+
    Install the required libraries from the requirements.txt file:
    ```
    pip install -r requirements.txt
@@ -69,6 +73,7 @@ EMAIL_HOST_PASSWORD=
    ```
 
 7. **Database settings:**
+
    Apply migrations to the database:
    ```
    python manage.py migrate
