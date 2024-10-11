@@ -1,1 +1,1 @@
-web: gunicorn Quotes-of-famous-people.wsgi:application --log-file -
+web: gunicorn quotes.wsgi:application --log-file -
