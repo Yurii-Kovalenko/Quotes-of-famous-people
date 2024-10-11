@@ -1,1 +1,1 @@
-web: gunicorn quotes.wsgi:application --log-file -
+web: gunicorn quotes.quotes.wsgi:application --log-file -
