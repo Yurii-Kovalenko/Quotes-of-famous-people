@@ -17,7 +17,7 @@ import environ
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 IS_DB_IN_KOYEB = True
 
@@ -52,8 +52,6 @@ INSTALLED_APPS = [
     'users'
 ]
 
-#    'quotes.quoteapp',
-#    'quotes.users'
 
 
 MIDDLEWARE = [
